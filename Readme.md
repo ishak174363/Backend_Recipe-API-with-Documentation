@@ -121,8 +121,6 @@ json
 }
 Response:
 json
-
-
 {
   "id": 1,
   "title": "Chicken Curry",
@@ -137,8 +135,6 @@ Method: GET
 Description: Retrieve a specific recipe by its ID.
 Response:
 json
-
-
 {
   "id": 1,
   "title": "Chicken Curry",
@@ -156,7 +152,6 @@ Method: PUT / PATCH
 Description: Update an existing recipe.
 Request Body:
 json
-
 {
   "title": "Chicken Biryani",
   "time_minutes": 40,
@@ -164,7 +159,6 @@ json
 }
 Response:
 json
-
 {
   "id": 1,
   "title": "Chicken Biryani",
